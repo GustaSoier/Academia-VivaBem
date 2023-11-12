@@ -1,10 +1,10 @@
 @extends('layout.layout'){{-- para extender da página layout--}}
 
-@section('title', 'Notícias')
+@section('title', 'Modalidades')
 
 
 @section('conteudo')
 
-    <h1>Página Notícias</h1>
+    <h1>Página Modalidades</h1>
 
 @endsection
