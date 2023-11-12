@@ -12,9 +12,9 @@
         <ul>
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/sobre') }}">Sobre</a></li>
-            <li><a href="{{ url('/modalidade') }}">Modalidade</a></li>
-            <li><a href="{{ url('/treino') }}">Treino</a></li>
-            <li><a href="{{ url('/noticia') }}">Notícia</a></li>
+            <li><a href="{{ url('/modalidade') }}">Modalidades</a></li>
+            <li><a href="{{ url('/treino') }}">Treinos</a></li>
+            <li><a href="{{ url('/noticia') }}">Notícias</a></li>
             <li><a href="{{ url('/contato') }}">Contato</a></li>
         </ul>
     </nav>
