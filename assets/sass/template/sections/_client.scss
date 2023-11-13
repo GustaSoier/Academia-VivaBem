@@ -1,0 +1,36 @@
+/* Client 1 ---------------------------------- */
+.client-area {
+    border-top: 1px solid $border-color;
+    padding: 86px 0;
+}
+.client-box {
+    &:hover {
+        background: $smoke-color3;
+        opacity: 1;
+    }
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 33.5px 0;
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.client-sec {
+    padding-top: 337px;
+}  
+@include md {
+    .client-area {
+        padding: 80px 0;
+    }
+    .client-sec {
+        padding-top: 317px;
+    }
+}
+
+@include xs {
+    
+}

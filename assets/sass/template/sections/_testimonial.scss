@@ -1,0 +1,257 @@
+/* Testimonial 1 ---------------------------------- */
+.testimonial-bg-thumb1 {
+    position: relative;
+    .thumb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0 30px 30px 0;
+        z-index: -1;
+        min-height: 784px;
+        img {
+            border-radius: 0 30px 30px 0;
+        }
+    }
+}
+.testi-box-wrap1 {
+    border-radius: 30px;
+    padding: 100px 95px;
+}
+.testi-box {
+    position: relative;
+    padding-top: 15px;
+    &_thumb {
+        border-radius: 6px;
+        position: relative;
+        display: inline-block;
+        img {
+            border-radius: 50%;
+        }
+        .block-quote {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 50px;
+            width: 50px;
+            line-height: 46px;
+            border: 4px solid $title-color;
+            background: $theme-color;
+            color: $white-color;
+            font-size: 18px;
+            border-radius: 50%;
+        }
+    }
+    &_text {
+        margin-top: 33px;
+        margin-bottom: 25px;
+        line-height: 1.667;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .rating {
+        color: $theme-color;
+        font-size: 16px;
+    }
+    &_profile {
+        .testi-box_name {
+            margin-bottom: -0.15em;
+            margin-top: -0.35em;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: $title-font;
+            color: $white-color;
+        }
+        .testi-box_desig {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: $title-font;
+            color: $body-color;
+            display: block;
+            margin-bottom: -0.65em;
+        }
+    }
+}
+.testi-slider-controller {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 60px;
+    .indicatior-btn {
+        background: #202020;
+        border: 1px solid #303030;
+        border-radius: 10px;
+        padding: 25px 30px;
+        position: relative;
+        min-width: 183px;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 10px;
+            border: 1px dashed rgba(255, 255, 255, 0.29);
+            margin: 7px;
+            opacity: 0;
+            transition: 0.4s;
+        }
+        &.active,
+        &:hover {
+            background: $theme-color;
+            border-color: $theme-color;
+            .testi-box_desig {
+                color: $white-color;
+            }
+            &:after {
+                opacity: 1;
+            }
+        }
+    }
+    .indicator {
+        display: none;
+    }
+}
+@include xxl {
+    .testimonial-bg-thumb1 .thumb {
+        width: 65%;
+    }
+    .testi-slider-controller {
+        margin-top: 40px;
+    }
+    .testi-box {
+        padding-top: 0px;
+    }
+}
+@include ml {
+    .testi-box-wrap1 {
+        padding: 75px;
+    }
+}
+@include lg {
+    .testi-box-wrap1 {
+        padding: 50px;
+    }
+    .testimonial-bg-thumb1 .thumb img {
+        height: 674px;
+        object-fit: cover;
+    }
+}
+@include md {
+    .testi-box-wrap1 {
+        padding: 60px 50px;
+    }
+}
+@include sm {
+    .testi-slider-controller {
+        display: inline-block;
+        margin: -10px;
+        margin-top: 30px;
+        .indicatior-btn {
+            margin: 10px;
+            display: block;
+        }
+    }
+    .testi-box_text {
+        font-size: 16px;
+    }
+}
+@include xs {
+    .testi-box-wrap1 {
+        padding: 50px 30px;
+    }
+    .testi-slider-controller {
+        margin: 0;
+        margin-top: 30px;
+    }
+    .testi-slider-controller .indicatior-btn {
+        min-width: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+.testi-box-wrap2 {
+    position: relative;
+    padding: 0 37px;
+    &:after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-13.84deg);
+        width: 671px;
+        height: 351px;
+        border: 1px solid rgba(27, 27, 27, 0.08);
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .testi-arrow {
+        .slick-arrow {
+            background: transparent;
+            box-shadow: none;
+            opacity: 1;
+            top: 50%;
+            left: -100px;
+            font-size: 40px;
+            color: $body-color;
+            margin-top: 0;
+            &.slick-next {
+                margin-top: 0;
+                left: auto;
+                right: -100px;
+            }
+            &:hover {
+                color: $title-color;
+            }
+        }
+    }
+}
+.testi-box.style2 {
+    padding: 0;
+    .testi-box_text {
+        font-size: 24px;
+        font-weight: 500;
+        font-style: italic;
+        font-family: $title-font;
+        text-transform: uppercase;
+        color: $title-color;
+        margin-top: 28px;
+        margin-bottom: 32px;
+    }
+    .testi-box_profile .testi-box_name {
+        color: $theme-color;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .testi-box_profile .testi-box_desig {
+        font-weight: 400;
+    }
+}
+@include lg {
+    .testi-box.style2 .testi-box_text {
+        font-size: 20px;
+    }
+    .testi-box-wrap2 .testi-arrow .slick-arrow {
+        left: -80px;
+    }
+    .testi-box-wrap2 .testi-arrow .slick-arrow.slick-next {
+        right: -80px;
+    }
+}
+@include md {
+    .testi-box-wrap2 {
+        padding: 0;
+    }
+}
+@include sm {
+    .testi-box.style2 .testi-box_text {
+        font-size: 16px;
+    }
+}
+@include vxs {
+    .testi-box.style2 .testi-box_text {
+        font-size: 14px;
+    }
+}

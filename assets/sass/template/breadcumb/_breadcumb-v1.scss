@@ -1,0 +1,93 @@
+.breadcumb-menu {
+    max-width: 100%;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    margin: 21px 0 -0.4em;
+    li {
+        display: inline-block;
+        padding-right: 3px;
+        list-style: none;
+        position: relative;
+        &:after {
+            content: "/";
+            position: relative;
+            margin-left: 7px;
+            font-weight: 400;
+            font-size: 16px;
+            color: $white-color;
+        }
+
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    li,
+    a,
+    span {
+        white-space: normal;
+        color: inherit;
+        word-break: break-word;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: $title-font;
+        color: $white-color;
+    }
+    a:hover {
+        color: $theme-color;
+    }
+}
+
+.breadcumb-title {
+    color: $white-color;
+    margin: -0.25em 0 -0.2em 0;
+	line-height: 1.1;
+    font-size: 60px;
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
+}
+
+.breadcumb-wrapper {
+    background-size: cover;
+    padding: 158px 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    z-index: auto;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(14, 9, 9, 0.55);
+    }   
+}
+@include md {
+    .breadcumb-wrapper {
+        padding: 120px 0;
+    }
+}
+@include xs {
+    .breadcumb-title {
+        font-size: 40px;
+    }
+    .breadcumb-menu {
+        text-align: center;
+        margin: 22px 0 -0.45em 0;
+    }
+    .breadcumb-menu li, .breadcumb-menu a, .breadcumb-menu span {
+        font-size: 14px;
+    }
+    .breadcumb-wrapper {
+        padding: 115px 0 115px;
+    }
+}

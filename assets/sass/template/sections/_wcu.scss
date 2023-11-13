@@ -1,0 +1,138 @@
+/*----------------------------------------------
+    # why choose us area style here
+----------------------------------------------*/
+.wcu-thumb {
+    position: relative;
+    padding: 0 43px 40px 0;
+    margin-right: 10px;
+    .img-1 {
+        border-radius: 20px;
+    }
+    .img-2 {
+        position: absolute;
+        left: -105px;
+        top: 94px;
+        border-radius: 20px;
+    }
+    .wcu-grid {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+.wcu-grid {
+    background: $theme-color;
+    border-radius: 20px;
+    padding: 40px 68px 40px 40px;
+    display: inline-flex;
+    align-items: center;
+    .icon {
+        padding-right: 20px;
+        border-right: 1px solid rgba(255, 255, 255, 0.31);
+        margin-right: 20px;
+    }
+    &_year {
+        font-size: 48px;
+        font-weight: 500;
+        color: $white-color;
+        margin-bottom: -5px;
+        margin-top: -0.3em;
+    }
+    &_text {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $title-font;
+        color: $white-color;
+        text-transform: uppercase;
+        margin-bottom: -0.4em;
+        display: block;
+    }
+    &.style2 {
+        border-radius: 0;
+    }
+}
+@include ml {
+    .wcu-thumb .img-2 {
+        left: -75px;
+    }
+}
+@include xl {
+    .wcu-thumb {
+        padding: 0 40px 40px 40px;
+        height: 100%;
+        .img-1 {
+            height: 100%;
+            object-fit: cover;
+            }
+        .img-2 {
+            left: 0;
+        }
+    }
+}
+@include ml {
+    .wcu-thumb {
+        height: auto;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+@include xs {
+    .wcu-grid {
+        padding: 30px 30px 30px 30px;
+    }
+    .wcu-grid_year {
+        font-size: 38px;
+    }
+    .wcu-thumb .img-2 {
+        width: 200px;
+    }
+}
+@include vxs {
+    .wcu-thumb {
+        padding: 0;
+        margin-bottom: 40px;
+        .wcu-grid {
+            position: initial;
+            animation: none;
+            margin-top: 20px;
+            display: flex;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .wcu-grid {
+        padding: 20px;
+    }
+}
+
+.wcu-thumb2 {
+    img {
+        border-radius: 20px;
+    }
+}
+.wcu-grid2 {
+    border-radius: 20px;
+    padding: 30px;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    .wcu-grid_text {
+        font-size: 18px;
+        display: inline-block;
+    }
+}
+@include lg {
+    .wcu-thumb2 img {
+        width: 100%;
+    }
+}
+@include sm {
+    .wcu-grid {
+        padding: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .wcu-grid {
+        padding: 19px;
+    }
+}

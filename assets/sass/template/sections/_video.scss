@@ -1,0 +1,39 @@
+/* Why 1 ---------------------------------- */ 
+.video-area-1 {
+    .video-wrap {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: -119px;
+        .play-btn {
+            border-radius: 50%;
+            position: relative;
+            transform: translate(0, 50%);
+            > i {
+                background: transparent;
+                color: $white-color;
+                --icon-size: 238px;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: $theme-color;
+                    mix-blend-mode: multiply;
+                    border-radius: 50%;
+                    z-index: -1;
+                }
+            }
+        }
+    }    
+}
+@include ml {
+    .video-area-1 .video-wrap .play-btn > i {
+        --icon-size: 150px;
+    }
+    .video-area-1 .video-wrap {
+        margin-top: -76px;
+    }
+}

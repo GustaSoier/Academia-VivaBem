@@ -1,0 +1,84 @@
+.subscribe-sec-shape {
+    position: relative;
+    z-index: -1;
+    top: -50px;
+}
+.subscribe-area {
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;    
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 0 0 6px 6px;
+    padding: 0 30px 30px;
+    margin: 0 -30px 0px;
+    background: $white-color;
+    .subscribe-wrapper {
+        padding: 50px 90px;
+        border-radius: 6px;
+        transform: translate(0, -30px);
+        margin-bottom: -30px;
+    }
+    .subscribe-title {
+        font-size: 30px;
+        margin-top: -0.25em;
+    }
+}
+.subscribe-form {
+    position: relative;
+    .form-group {
+        .form-control {
+            height: 70px;
+            padding-right: 220px;
+        }
+        .input-icon {
+            top: 0;
+            height: 100%;
+            line-height: 70px;
+        }
+    }
+    .btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 18px 40px;
+    }
+}
+@include lg {
+    .subscribe-area {
+        .subscribe-wrapper {
+            padding: 50px;
+        }
+    }
+}
+@include xs {
+    .subscribe-area {
+        margin: 0 0px 0px;
+        padding: 0 20px 20px;
+        .subscribe-wrapper {
+            padding: 50px 20px;
+        }
+    }
+    .subscribe-form .form-group .form-control {
+        height: 60px;
+        padding-right: 30px;
+    }
+    .subscribe-form .form-group .input-icon {
+        line-height: 60px;
+    }
+    .subscribe-form .btn {
+        position: relative;
+        margin-top: 15px;
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+    .subscribe-area .subscribe-title {
+        font-size: 24px;
+    }
+}
+@include vxs {
+    .subscribe-area {
+        padding: 0;
+        box-shadow: none;
+    }
+}

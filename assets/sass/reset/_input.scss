@@ -1,0 +1,369 @@
+select,
+.single-select,
+.form-control,
+.form-select,
+textarea,
+input {
+    height: 60px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    color: $body-color;
+    background-color: $smoke-color;
+    font-size: 16px;
+    width: 100%;
+    font-family: $body-font;
+	transition: 0.4s ease-in-out;
+    padding-right: 45px;
+    border-radius: 5px;
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+        border-color: $theme-color;
+        background-color: $smoke-color;
+    }
+
+    @include inputPlaceholder {
+        color: $body-color;
+    }
+    &.style2 {
+        height: auto;
+        border: none;
+        border: 2px solid $theme-color;
+        padding: 14.5px 30px;
+        background-color: transparent;
+        line-height: initial;
+        option {
+            background-color: $title-color;
+            color: $body-color;
+            padding: 2px 15px;
+        }
+        @include inputPlaceholder {
+            color: $body-color;
+        }
+    }
+    &.style-white {
+        background: $white-color;
+    }
+    &.style-border {
+        background: transparent;
+        border: 1px solid #404040;
+        border-radius: 0;
+        color: $white-color;
+    }
+    &.style-border2 {
+        background: transparent;
+        border: 1px solid #E8E8E8;
+        border-radius: 0;
+        color: $title-color;
+    }
+    &.style3 {
+        background: $smoke-color3;
+    }
+}
+  
+.form-text {
+    font-size: 16px;
+    a {
+        color: $title-color;
+        font-weight: 500;
+    }
+}
+.single-select,
+.form-select,
+select {
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E");
+    background-position: right 26px center;
+    background-repeat: no-repeat;
+    background-size: 16px 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    &:after {
+        right: 30px;
+        height: 8px;
+        width: 8px;
+    }
+    .list {
+        width: 100%;
+    }
+}
+
+textarea.form-control,
+textarea {
+    min-height: 150px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    &.style2 {
+        min-height: 100px;
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+    > i {
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 21px;
+        font-size: 16px;
+        color: $body-color;
+        &.fa-envelope {
+            padding-top: 1px;
+        }
+        &.fa-comment {
+            margin-top: -2px;
+        }
+        &.fa-chevron-down {
+            width: 17px;
+            background-color: $smoke-color;
+        }
+    }
+    &.has-label {
+        > i {
+            top: 50px;
+        }
+    }
+    &.has-icon {
+        .form-control {
+            padding-left: 70px;
+        }
+        .input-icon {
+            display: inline-block;
+            position: absolute;
+            left: 40px;
+            top: 18px;
+            font-size: 16px;
+            color: $body-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+    &.radius-group {
+        input {
+            border-radius: 100px;
+        }
+    }
+    &.style-2 {
+        .form-control {
+            padding: 0 30px 0 55px;
+        }
+        textarea.form-control {
+            padding: 16px 30px 30px 55px;
+        }
+    }
+    &.style-3 {
+        .form-control {
+            padding: 0 60px 0 30px;
+        }
+
+    }
+}
+
+[class*="col-"].form-group {
+    > i {
+        right: calc((var(--bs-gutter-x) / 2) + 25px);
+    }
+    .form-icon-left {
+        left: calc((var(--bs-gutter-x) / 2) + 30px);
+        right: auto;
+    }
+}
+
+option {
+    &:checked,
+    &:focus,
+    &:hover {
+        background-color: $theme-color;
+        color: $white-color;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+    opacity: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    display: none;
+    border-radius: 10px;
+    &:checked {
+        ~ label {
+            &:before {
+                content: "\f00c";
+                color: $white-color;
+                background-color: $theme-color;
+                border-color: $theme-color;
+            }
+        }
+    }
+
+    ~ label {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        display: block;
+
+        &:before {
+            content: "";
+            font-family: $icon-font;
+            font-weight: 700;
+            position: absolute;
+            left: 0px;
+            top: 3.5px;
+            background-color: $white-color;
+            border: 1px solid $theme-color;
+            height: 18px;
+            width: 18px;
+            line-height: 18px;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+    &.style2 {
+        ~ label {
+            color: #8B929C;
+            padding-left: 23px;
+            margin-bottom: -0.5em;
+            &:before {
+                background-color: rgba($color: #fff, $alpha: 1);
+                border: 1px solid rgb(247, 204, 215);
+                height: 14px;
+                width: 14px;
+                line-height: 14px;
+                border-radius: 3px;
+                top: 6px;
+            }
+        }
+        &:checked {
+            ~ label {
+                &:before {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}
+  
+input[type="radio"] {
+    visibility: hidden;
+    opacity: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    display: none;
+
+    ~ label {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        line-height: 1;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 0;
+
+        &::before {
+            content: "\f111";
+            position: absolute;
+            font-family: $icon-font;
+            left: 0;
+            top: -2px;
+            width: 20px;
+            height: 20px;
+            padding-left: 0;
+            font-size: 0.6em;
+            line-height: 19px;
+            text-align: center;
+            border: 1px solid $theme-color;
+            border-radius: 100%;
+            font-weight: 700;
+            background: $white-color;
+            color: transparent;
+            transition: all 0.2s ease;
+        }
+    }
+
+    &:checked {
+        ~ label {
+            &::before {
+                border-color: $theme-color;
+                background-color: $theme-color;
+                color: $white-color;
+            }
+        }
+    }
+}
+
+label {
+    margin-bottom: 0.5em;
+    margin-top: -0.3em;
+    display: block;
+    color: $title-color;
+    font-family: $body-font;
+    font-size: 16px;
+}
+
+textarea.is-invalid,
+select.is-invalid,
+input.is-invalid,
+.was-validated input:invalid {
+    border: 1px solid $error-color !important;
+    background-position: right calc(0.375em + 0.8875rem) center;
+    background-image: none;
+
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+textarea.is-invalid {
+    background-position: top calc(0.375em + 0.5875rem) right
+        calc(0.375em + 0.8875rem);
+}
+
+.row.no-gutters > .form-group {
+    margin-bottom: 0;
+}
+
+.form-messages {
+    display: none;
+
+    &.mb-0 * {
+        margin-bottom: 0;
+    }
+
+    &.success {
+        color: $success-color;
+        display: block;
+    }
+
+    &.error {
+        color: $error-color;
+        display: block;
+    }
+
+    pre {
+        padding: 0;
+        background-color: transparent;
+        color: inherit;
+    }
+}

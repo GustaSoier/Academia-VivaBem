@@ -1,0 +1,121 @@
+.popup-search-box {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: all ease 0.4s;
+
+
+  button.searchClose {
+    width: 50px;
+    height: 50px;
+    line-height: 52px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: $theme-color;
+    font-size: 22px;
+    border-radius: 10px;
+    transform: rotate(0);
+    transition: all ease 0.4s;
+    color: $white-color;
+    border: 0;
+    &:hover {
+      color: $body-color;
+      background-color: #fff;
+      border-color: transparent;
+      border-color: transparent;
+      transform: rotate(90deg);
+    }
+  }
+
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    padding-bottom: 40px;
+    cursor: auto;
+    width: 100%;
+    max-width: 700px;
+    transform: translate(-50%, 50%) scale(0);
+    transition: transform ease 0.4s;
+
+    @include lg {
+      max-width: 600px;
+    }
+
+    input {
+      font-size: 18px;
+      height: 70px;
+      width: 100%;
+      border: none;
+      background-color: $white-color;
+      border: 2px solid $theme-color;
+      padding: 0 80px 0 30px;
+      color: $title-color;
+      border-radius: 50px;
+
+      @include inputPlaceholder {
+        color: $theme-color;
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 0px;
+      background-color: transparent;
+      border: none;
+      color: $theme-color;
+      font-size: 24px;
+      right: 12px;
+      cursor: pointer;
+      width: 70px;
+      height: 70px;
+      transition: all ease 0.4s;
+      transform: scale(1.001);
+      
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    width: 100.1%;
+    height: 100%;
+    transition: all ease 0.4s;
+    border-radius: 0;
+
+    form {
+      transition-delay: 0.5s;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+
+}
+
+@include sm {
+  .popup-search-box form {
+    width: 80%;
+  }
+  .popup-search-box form input {
+    height: 60px;
+  }
+  .popup-search-box form button {
+    width: 60px;
+    line-height: 62px;
+    height: 60px;
+  }
+}
