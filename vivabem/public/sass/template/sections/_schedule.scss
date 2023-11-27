@@ -1,0 +1,134 @@
+.schedule-area-1 {
+    clip-path: ellipse(195% 133% at 50% 137.9%);
+}
+.schedule-tab-1 {
+    .btn {
+        margin: 0 3px;
+        &:before {
+            transform: skewX(-10deg);
+        }
+        &.active {
+            &:before {
+                background: $theme-color;
+            } 
+        }
+    }
+}
+.schedule-table {
+    border: 0;
+    max-width: 1304px;
+    text-align: center;
+    margin-bottom: 0;
+    thead {
+        th {
+            border-top: 0;
+            border-bottom: 0;
+            padding: 21.5px 0;
+            font-size: 14px;
+            font-weight: 300;
+            font-family: $title-font;
+            color: $title-color;
+            &:last-child {
+                border-right: 0;
+            }
+            &:first-child {
+                border-left: 0;
+            }
+        }
+    }
+    tbody {
+        tr {
+            th {
+                border-left: 0;
+                font-size: 14px;
+                font-weight: 300;
+                font-family: $title-font;
+                color: $title-color;
+                min-width: 142px;
+                vertical-align: middle;
+                padding: 0 38px 0 15px;
+            }
+            td {
+                font-size: 14px;
+                font-weight: 300;
+                font-family: $title-font;
+                color: $body-color;
+                padding: 36.5px 27px;
+                min-width: 147px;
+                vertical-align: middle;
+                &.active {
+                    background: $title-color;
+                    span {
+                        color: $white-color
+                    }
+                }
+                span {
+                    display: block;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $title-font;
+                    color: $title-color;
+                    text-transform: uppercase;
+                    min-width: 110px;
+                }
+                &:last-child {
+                    border-right: 0     ;
+                }
+            }
+            &:last-child {
+                td,
+                th {
+                    border-bottom: 0;
+                }
+            }
+        }
+        
+    }
+}
+@include xl {
+    .schedule-tab-1 .table-responsive {
+        max-width: 1100px;
+    }
+}
+@include lg {
+    .schedule-tab-1 .table-responsive {
+        max-width: 940px;
+    }
+}
+@include md {
+    .schedule-tab-1 .table-responsive {
+        max-width: 695px;
+    }
+    .schedule-tab-1 {
+        .filter-menu-active {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .btn {
+            margin: 6px 3px;
+        }
+    }
+}
+@include sm {
+    .schedule-tab-1 .table-responsive {
+        max-width: 515px;
+    }
+}
+@include xs {
+    .schedule-tab-1 .table-responsive {
+        max-width: 400px;
+    }
+    .schedule-tab-1 .filter-menu-active {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@include vxs {
+    .schedule-tab-1 .table-responsive {
+        max-width: 350px;
+    }
+}
+@media (max-width: 320px) {
+    .schedule-tab-1 .table-responsive {
+        max-width: 295px;
+    }
+}

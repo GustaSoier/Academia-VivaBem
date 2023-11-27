@@ -1,0 +1,71 @@
+@include ml {
+    :root {
+        --main-container: 1250px;
+    }
+}
+.container2 {
+    max-width: 1330px;
+    margin: auto;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: calc(var(--main-container) + var(--container-gutters));
+    }
+    .container2 {
+        max-width: 1330px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .container2,
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        &.px-0 {
+            max-width: var(--main-container);
+        }
+    }
+    .container2 {
+        max-width: 1330px;
+    }
+}
+@include ml {
+    .container2 {
+        max-width: 1140px;
+    }
+}
+@include lg {
+    .container2 {
+        max-width: 960px;
+    }
+}
+@include md {
+    .container2 {
+        max-width: 720px;
+    }
+}
+@include sm {
+    .container2 {
+        max-width: 540px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .container-fluid.px-0 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+
+        .row {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+}
+@include lg {
+    .container2 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

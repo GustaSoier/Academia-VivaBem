@@ -1,0 +1,284 @@
+/***********feature area**********/
+.feature-area {
+    background: #F4F4F4;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.feature-card {
+    padding: 60px 65px 60px 40px;
+    transition: 0.4s;
+    position: relative;
+    z-index: 0;
+    &_bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 0%;
+        width: 100%;
+        z-index: -1;
+        transition: 0.4s;
+        opacity: 0;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &_icon {
+        margin-bottom: 30px;
+    }
+    &_subtitle {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $theme-color;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: $title-font;
+        position: relative;
+        padding-left: 18px;
+        margin-bottom: 5px;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(0, -50%);
+            background: $theme-color;
+            border-radius: 1px;
+            width: 8px;
+            height: 8px;
+        }
+    }
+    &_title {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 15px;
+
+        a {
+            color: $title-color;
+            background-image: linear-gradient(to left, $white-color, $white-color);
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            background-size: 0 2px;
+            &:hover {
+                background-size: 100% 2px;
+            }
+        }
+    }
+    &_text {
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+    &-active {
+        background: $title-color;
+        .feature-card_bg {
+            opacity: 1;
+            height: 100%;
+        }
+        .feature-card_icon {
+            filter: brightness(99);
+        }
+        .feature-card_title {
+            a {
+                color: $white-color;
+            }
+        }
+    }
+}
+@include ml {
+    .feature-area {
+        margin-top: -15px;
+    }
+}
+@include lg {
+    .feature-area {
+        margin-top: -30px;
+    }
+    .feature-card {
+        padding: 40px 35px;
+    }
+    .feature-card_title {
+        font-size: 22px;
+    }
+}
+@include md {
+    .feature-area {
+        margin-top: -45px;
+    }
+    .feature-card_text {
+        max-width: 500px;
+    }
+}
+@media (max-width: 320px) {
+    .feature-card {
+        padding: 30px 25px;
+    }
+}
+.feature-card2 {
+    .feature-card_img {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 44px;
+        img {
+            border-radius: 50%;
+        }
+        .feature-card_icon {
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            background: $white-color;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -30%);
+            z-index: 1;
+            opacity: 0;
+            &:hover {
+                background: $theme-color;
+                color: $white-color;
+            }
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            background: $title-color;
+            transition: 0.4s;
+            opacity: 0;
+        }
+    }
+    .feature-card_title {
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        a {
+            background: transparent;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+    .feature-card_text {
+        font-size: 16px;
+        max-width: 330px;
+        margin: auto;
+        margin-bottom: -0.3em;
+    }
+    &:hover {
+        .feature-card_img .feature-card_icon {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+        }
+        .feature-card_img img {
+            mix-blend-mode: luminosity;
+        }
+        .feature-card_img:after {
+            opacity: 0.8;
+        }
+    }
+}
+@include xl {
+    .feature-card2 .feature-card_img {
+        margin-bottom: 34px;
+    }
+}
+
+.feature-tab-button {
+    background: $white-color;
+    button {
+        border: 0;
+        background: transparent;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $title-font;
+        color: $title-color;
+        text-transform: uppercase;
+        padding: 17px 52px 17px 30px;
+        display: block;
+        width: 100%;
+        text-align: left;
+        position: relative;
+        i {
+            position: absolute;
+            right: 30px;
+            top: 22px;
+            color: $body-color;
+        }
+        ~ button {
+            border-top: 1px solid #EEEEEE;
+        }
+        &.active {
+            background: $theme-color;
+            color: $white-color;
+            i {
+                color: $white-color;
+            }
+        }
+    }
+}
+.feature-tab-content {
+    .filter-item {
+        display: flex;
+        gap: 30px;
+    }
+    .tab-thumb {
+        flex: none;
+    }
+    .tab-content_grid {
+        display: flex;
+        gap: 30px 60px;
+        margin-top: 10px;
+        .media-left {
+            align-self: flex-end;
+            margin-bottom: -0.3em;
+        }
+        .media-body {
+            margin-bottom: -0.3em;
+        }
+    }
+    .tab-content_grid-title {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .counter-number {
+        color: $theme-color;
+        font-size: 60px;
+        font-weight: 700;
+        font-family: $title-font;
+    }
+}
+@include ml {
+    .feature-tab-button button {
+        font-size: 15px;
+    }
+}
+@include md {
+    .feature-tab-content .tab-content_grid {
+        gap: 30px 40px;
+    }
+}
+@include sm {
+    .feature-tab-content .filter-item {
+        display: block;
+        .tab-thumb {
+            margin-bottom: 30px;
+        }
+    }
+}
+@include xs {
+    .feature-tab-content .tab-content_grid {
+        display: block;
+        margin-top: 20px;
+    }
+    .feature-tab-content .tab-content_grid .media-left {
+        margin-bottom: 10px;
+    }
+}

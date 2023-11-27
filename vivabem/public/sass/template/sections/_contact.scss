@@ -1,0 +1,273 @@
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2F2F2F;
+    .info-card {
+        padding: 60px 0;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        &:not(:first-child) {
+            border-left: 1px solid #2F2F2F;
+            padding-left: 100px;
+        }
+        &_icon {
+            background: #1B1B1B;
+            border: 1px solid #2B2B2B;
+            box-shadow: 0px 7px 64px #090909;
+            display: inline-block;
+            flex: none;
+            height: 70px;
+            width: 70px;
+            line-height: 70px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 24px;
+            color: $white-color;
+        }
+        &_text {
+            font-weight: 500;
+            font-size: 14px;
+            font-family: $title-font;
+            color: $white-color;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+        &_link {
+            font-weight: 500;
+            font-size: 22px;
+            font-family: $title-font;
+            color: $white-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+    &.style2 {
+        background: $white-color;
+        border: 0;
+        box-shadow: 0px 17px 38px rgba(0, 0, 0, 0.16);
+        padding: 0 90px 0 0;
+        transform: translate(0, 50%);
+        position: relative;
+        z-index: 1;
+        margin-top: -70.5px;
+        .info-card {
+            padding: 35px 0;
+            margin-left: 40px;
+            .info-card_icon {
+                box-shadow: none;
+            }
+            &.style2 {
+                display: block;
+                padding: 35px 150px;
+                text-align: center;
+            }
+            .info-card_title {
+                font-size: 14px;
+                font-weight: 500;
+                color: $white-color;
+                text-transform: uppercase;
+            }
+        }
+        .info-card:not(:first-child) {
+            border: 0;
+        }
+        .info-card_text {
+            color: $title-color;
+        }
+        .info-card_link {
+            color: $title-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
+.contact-social-wrap {
+    border-top: 1px solid $border-color;
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+    }
+    .social-btn {
+        flex: none;
+        margin-left: auto;
+    }
+}
+
+.map-sec {
+    line-height: 0;
+    filter: grayscale(1);
+    iframe {
+        width: 100%;
+        height: 400px;
+        @include sm {
+            height: 300px;
+        }
+    }
+}
+@include ml {
+    .contact-card.style2 {
+        padding: 0 40px 0 0;
+    }
+}
+@include xl {
+    .contact-card .info-card_icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 20px;
+    }
+}
+@include lg {
+    .contact-card .info-card:not(:first-child) {
+        padding-left: 30px;
+    }
+    .contact-card.style2 .info-card:not(:first-child) {
+        padding-left: 0;
+    }
+    .contact-card.style2 .info-card.style2 {
+        padding: 35px 70px;
+    }
+}
+@include md {
+    .contact-card {
+        display: block;
+        padding: 35px 0;
+        text-align: center;
+        .info-card {
+            padding: 15px 0;
+            display: inline-flex;
+            padding-right: 50px;
+            text-align: left;
+            &:not(:first-child) {
+                border-left: 0;
+                padding-left: 0;
+            }
+        }
+    }
+    .contact-card.style2 {
+        transform: none;
+        margin-top: 0;
+        margin-bottom: 80px;
+        padding: 0;
+        text-align: center;
+    }
+    .contact-card.style2 .info-card {
+        margin-left: 0;
+        .social-btn {
+            justify-content: center;
+        }
+    }
+}
+@include sm {
+    .contact-card {
+        text-align: left;
+    }
+}
+@include vxs {
+    .contact-card .info-card {
+        padding-right: 0;
+    }
+}
+/****contact page*****/
+.contact-info {
+    display: flex;
+    gap: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    padding: 70px;
+    &_icon {
+        flex: none;
+    }
+    .contact-info_title {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: $title-font;
+        color: $theme-color;
+        text-transform: uppercase;
+        display: block;
+        margin-top: -0.3em;
+    }
+    .contact-info_text {
+        margin-bottom: -0.4em;
+        a {
+            font-size: 24px;
+            font-weight: 500;
+            color: $title-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
+.map-sec2 {
+    line-height: 0;
+    filter: grayscale(1);
+    iframe {
+        width: 100%;
+        height: 750px;
+        @include sm {
+            height: 500px;
+        }
+    }
+}
+.contact-form-area {
+    border-radius: 20px;
+    margin-top: -300px;
+    position: relative;
+    z-index: 1;
+    .contact-form-thumb {
+        border-radius: 20px 0 0 20px;
+        overflow: hidden;
+        height: 100%;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .contact-form-wrap {
+        padding: 80px 80px 80px 60px;
+    }
+}
+@include ml {
+    .contact-info {
+        padding: 50px;
+    }
+}
+@include lg {
+    .contact-info {
+        padding: 40px;
+    }
+    .contact-info .contact-info_text a {
+        font-size: 20px;
+    }
+}
+@include md {
+    .contact-form-area .contact-form-thumb {
+        border-radius: 15px 15px 0 0;
+        height: auto;
+        img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+        }
+    } 
+    .contact-form-area .contact-form-wrap {
+        padding: 60px;
+    }
+}
+@include xs {
+    .contact-form-area .contact-form-wrap {
+        padding: 40px;
+    }
+}
+@include vxs {
+    .contact-form-area .contact-form-wrap {
+        padding: 30px;
+    }
+}

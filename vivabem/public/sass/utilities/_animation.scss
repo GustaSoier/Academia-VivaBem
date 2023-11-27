@@ -1,0 +1,264 @@
+.ripple-animation {
+  animation-duration: var(--ripple-ani-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: ripple;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2.1);
+    opacity: 0;
+  }
+}
+
+.movingX {
+  animation: movingX 8s linear infinite;
+}
+@keyframes movingX {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.moving {
+  animation: moving 8s linear infinite;
+}
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.jump {
+  animation: jumpAni 7s linear infinite;
+}
+.jump1 {
+  animation: jumpAni 6s linear infinite;
+}
+.jump2 {
+  animation: jumpAni 5s linear infinite;
+}
+.jump3 {
+  animation: jumpAni 4s linear infinite;
+}
+@keyframes jumpAni {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.jump-reverse {
+  animation: jumpReverseAni 7s linear infinite;
+}
+@keyframes jumpReverseAni {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.spin {
+  animation: spin 15s linear infinite;
+}
+.spin-slow {
+  animation: spin 50s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// This is for Progress bar animation also has a js code
+@keyframes animate-positive {
+  0% {
+    width: 0; 
+  } 
+}
+
+
+.scalein.slider-animated {
+  --animation-name: scalein;
+}
+
+.slidetopleft.slider-animated {
+  --animation-name: slidetopleft;
+}
+
+.slidebottomright.slider-animated {
+  --animation-name: slidebottomright;
+}
+
+.slideinleft.slider-animated {
+  --animation-name: slideinleft;
+}
+
+.slideinright.slider-animated {
+  --animation-name: slideinright;
+}
+
+.slideinup.slider-animated {
+  --animation-name: slideinup;
+}
+
+.slideindown.slider-animated {
+  --animation-name: slideindown;
+}
+.rollinleft.slider-animated {
+  --animation-name: rollinleft;
+}
+.rollinright.slider-animated {
+  --animation-name: rollinright;
+}
+
+
+.scalein,
+.slidetopleft,
+.slidebottomright,
+.slideinleft,
+.slideinright,
+.slideindown,
+.slideinup,
+.rollinleft,
+.rollinright {
+  opacity: 0;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-name: var(--animation-name);
+}
+
+.slider-animated {
+  opacity: 1;
+}
+
+@keyframes slideinup {
+  0% {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideinright {
+  0% {
+    opacity: 0;
+    transform: translateX(70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideindown {
+  0% {
+    opacity: 0;
+    transform: translateY(-70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slidebottomright {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) translateY(100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes slidetopleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) translateY(-100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to { 
+      transform: rotate(360deg);
+  }
+  0% {
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }  
+  75% {
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: transparent;
+  }
+  100% {
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+}

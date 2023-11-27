@@ -1,0 +1,28 @@
+.copyright-wrap {
+    padding: 26px 0;
+    background: #282828;
+}
+.widget-area {
+    padding: 100px 0 50px;
+}
+.copyright-text {
+    margin: 0;
+    color: $white-color;
+    font-weight: 500;
+    a {
+        color: $white-color;
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}
+.footer-layout1 {
+    position: relative;
+    background-color: $title-color;
+}
+
+@include md {
+    .widget-area {
+        padding: 60px 0 30px;
+    }
+}
