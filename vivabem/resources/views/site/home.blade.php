@@ -1363,12 +1363,12 @@
                             </div>
                             <div class="about-grid_content">
                                 <h4 class="about-grid_title">Cardio e Força</h4>
-                                <p class="about-grid_text">Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
+                                <p class="about-grid_text">Pedale até se exercitar em nosso estúdio especializado em ciclismo indoor. Equipado com bicicletas estacionárias...</p>
                             </div>
                         </div>
                         <div class="btn-wrap">
-                            <a class="btn style-r0" href="{{ url('/service-details') }}">Learn More</a>
-                            <a class="btn btn-border style-r0" href="{{ url('/service-details') }}">View All Services</a>
+                            <a class="btn style-r0" href="{{ url('/service-details') }}">Saiba mais</a>
+                            <a class="btn btn-border style-r0" href="{{ url('/service-details') }}">Ver todos os serviços</a>
                         </div>
                     </div>
                 </div>
@@ -1385,15 +1385,15 @@
                 <div class="col-xl-7 col-lg-8 col-md-10">
                     <div class="cta-wrap text-center text-lg-start">
                         <div class="title-area">
-                            <span class="sub-title">Make An Appointment</span>
-                            <h2 class="sec-title text-white fw-semibold">GET A FREE CONSULTANCY RIGHT NOW HERE!</h2>
+                            <span class="sub-title">MARQUE UMA CONSULTA</span>
+                            <h2 class="sec-title text-white fw-semibold">OBTENHA UMA CONSULTORIA GRATUITA AGORA AQUI!</h2>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn style2 style-r0">Make Appointment</a>
+                            <a href="about.html" class="btn style2 style-r0">Marque uma consulta</a>
                             <div class="about-info-wrap style3">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
-                                    <p class="about-info-title text-white">Need Help?</p>
+                                    <p class="about-info-title text-white">Precisa de ajuda?</p>
                                     <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
                                 </div>
                             </div>
@@ -1414,12 +1414,12 @@
                     <div class="blog_sec_title_static me-lg-3">
                         <div class="blog_sec_title_wrap">
                             <div class="title-area">
-                                <span class="sub-title">Our Blog Posts
+                                <span class="sub-title">NOSSAS POSTAGENS NO BLOG
                                 </span>
-                                <h2 class="sec-title fw-semibold">READ OUR LATEST STORIES</h2>
-                                <p class="sec-text">Welcome to our gym blog, where we share valuable insights, tips, and inspiration to help you on your journey to a healthier...</p>
+                                <h2 class="sec-title fw-semibold">LEIA NOSSAS ÚLTIMAS HISTÓRIAS</h2>
+                                <p class="sec-text">Bem-vindo ao nosso blog de academia, onde compartilhamos informações valiosas, dicas e inspiração para ajudá-lo em sua jornada para uma vida mais saudável...</p>
                             </div>
-                            <a class="btn style-r0" href="blog.html">View More Posts</a>
+                            <a class="btn style-r0" href="blog.html">Ver mais postagens</a>
                         </div>
                     </div>
                 </div>
@@ -1430,12 +1430,11 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html">JUNE 15, 2023</a>
-                                <a href="blog.html">SHOPPING</a>
+                                <a href="blog.html">15 DE JUNHO DE 2023</a>
+                                <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Mastering the Machines: A Beginner's Guide
-                                to Gym Equipment</a></h3>
-                            <a href="{{ url('/blog-details') }}blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> READ MORE</a>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando as máquinas: um guia para iniciantes em equipamentos de ginástica</a></h3>
+                            <a href="{{ url('/blog-details') }}blog-details.html" class="link-btn style2"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÃO</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -1444,12 +1443,11 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html">JUNE 15, 2023</a>
-                                <a href="blog.html">SHOPPING</a>
+                                <a href="blog.html">15 DE JUNHO DE 2023</a>
+                                <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Mastering the Machines: A Beginner's Guide
-                                to Gym Equipment</a></h3>
-                            <a href="{{ url('/blog-details') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i> READ MORE</a>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Dominando as máquinas: um guia para iniciantes em equipamentos de ginástica</a></h3>
+                            <a href="{{ url('/blog-details') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÃO</a>
                         </div>
                     </div>
                     <div class="blog-card style2">
@@ -1458,12 +1456,11 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html">JUNE 15, 2023</a>
-                                <a href="blog.html">SHOPPING</a>
+                                <a href="blog.html">15 DE JUNHO DE 2023</a>
+                                <a href="blog.html">COMPRAS</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="{{ url('/blog-details') }}">Mastering the Machines: A Beginner's Guide
-                                to Gym Equipment</a></h3>
-                            <a href="{{ url('/blog-details') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i> READ MORE</a>
+                            <h3 class="blog-title box-title"><a href="{{ url('/blog-details') }}">Dominando as máquinas: um guia para iniciantes em equipamentos de ginástica</a></h3>
+                            <a href="{{ url('/blog-details') }}" class="link-btn style2"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÃO</a>
                         </div>
                     </div>
                 </div>

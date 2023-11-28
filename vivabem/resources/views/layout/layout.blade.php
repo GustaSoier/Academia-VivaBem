@@ -272,7 +272,7 @@
                         </div>
                         <div class="col-auto d-xxl-block d-none">
                             <div class="navbar-right-desc">
-                                <i class="fas fa-phone-volume"></i><a href="tel:+2590256215">+259 (0) 256 215</a>
+                                <i class="fas fa-phone-volume"></i><a href="tel:+11951694143">11 951694143</a>
                             </div>
                         </div>
                         <div class="col-auto d-none d-lg-block">
@@ -312,7 +312,7 @@
                                 <div class="footer-logo">
                                     <a href="index.html"><img src="{{ asset('img/logo-white.svg') }}" alt="Fitmas"></a>
                                 </div>
-                                <p class="about-text">A gym, also known as a fitness center or health club, is a facility dedicated to physical fitness and exercise gyms and typically offer a range</p>
+                                <p class="about-text">Uma academia, também conhecida como centro de fitness ou clube de saúde, é uma instalação dedicada à preparação física e academias de ginástica e normalmente oferece uma variedade de benefícios.</p>
                                 <div class="social-btn">
                                     <a href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
                                     <a href="https://linkedin.com/" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
@@ -337,7 +337,7 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">Gallery</h3>
+                            <h3 class="widget_title">Galeria</h3>
                             <div class="sidebar-gallery">
                                 <div class="gallery-thumb">
                                     <img src="{{ asset('img/widget/insta-feed1.png') }}" alt="Gallery Image">
@@ -368,14 +368,14 @@
                     </div>
                     <div class="col-md-6 col-xl-3">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">Get Newsletter</h3>
-                            <p class="footer-text">Get 10% off your first order! Hurry up</p>
+                            <h3 class="widget_title">Receba boletim informativo</h3>
+                            <p class="footer-text">Ganhe 10% de desconto no seu primeiro pedido! Se apresse</p>
                             <form class="newsletter-form">
                                 <div class="form-group">
                                     <i class="far fa-envelope"></i>
-                                    <input class="form-control" type="email" placeholder="Email Address" required="">
+                                    <input class="form-control" type="email" placeholder="Endereço de email" required="">
                                 </div>
-                                <button type="submit" class="btn style-r0 style2">Subscribe</button>
+                                <button type="submit" class="btn style-r0 style2">Inscreva-se</button>
                             </form>
                         </div>
                     </div>
@@ -385,7 +385,7 @@
         <div class="copyright-wrap">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-auto align-self-center"><p class="copyright-text text-center">© 2023 <a href="#">Fitmas.</a> All Rights Reserved.</p></div>
+                    <div class="col-auto align-self-center"><p class="copyright-text text-center">© 2023 <a href="#">Fitmas.</a> Todos os direitos reservados.</p></div>
                 </div>
             </div>
         </div>
