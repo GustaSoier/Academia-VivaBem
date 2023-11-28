@@ -7,7 +7,7 @@
     <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcrumb-bg.png">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/bg/breadcrumb-bg.png') }}">
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
@@ -33,8 +33,8 @@
             <div class="row">
                 <div class="col-lg-6 order-lg-2 text-lg-end">
                     <div class="about-thumb mb-5 mb-lg-0">
-                        <img class="about-img-1" src="assets/img/normal/about_1-1.png" alt="img">
-                        <img class="about-img-2 jump" src="assets/img/normal/about_1-2.png" alt="img">
+                        <img class="about-img-1" src="{{ asset('img/normal/about_1-1.png') }}" alt="img">
+                        <img class="about-img-2 jump" src="{{ asset('img/normal/about_1-2.png') }}" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
@@ -54,19 +54,19 @@
                                 <div class="filter-active-cat1">
                                     <div class="filter-item cat1">
                                         <div class="about-tab-icon">
-                                            <img src="assets/img/icon/about-icon.svg" alt="img">
+                                            <img src="{{ asset('img/icon/about-icon.svg') }}" alt="img">
                                         </div>
                                         <p class="about-tab-text">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
                                     </div>
                                     <div class="filter-item cat2">
                                         <div class="about-tab-icon">
-                                            <img src="assets/img/icon/about-icon.svg" alt="img">
+                                            <img src="{{ asset('img/icon/about-icon.svg') }}" alt="img">
                                         </div>
                                         <p class="about-tab-text">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
                                     </div>
                                     <div class="filter-item cat3">
                                         <div class="about-tab-icon">
-                                            <img src="assets/img/icon/about-icon.svg" alt="img">
+                                            <img src="{{ asset('img/icon/about-icon.svg') }}" alt="img">
                                         </div>
                                         <p class="about-tab-text">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
                                     </div>
@@ -104,7 +104,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card style2">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service-icon_2-1.svg" alt="img">
+                            <img src="{{ asset('img/icon/service-icon_2-1.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Gym Fitness Class</a></h4>
@@ -117,7 +117,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card style2">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service-icon_2-2.svg" alt="img">
+                            <img src="{{ asset('img/icon/service-icon_2-2.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Power Lifting</a></h4>
@@ -130,7 +130,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card style2">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service-icon_2-3.svg" alt="img">
+                            <img src="{{ asset('img/icon/service-icon_2-3.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Body Building</a></h4>
@@ -143,7 +143,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card style2">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service-icon_2-1.svg" alt="img">
+                            <img src="{{ asset('img/icon/service-icon_2-1.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Gym Fitness Class</a></h4>
@@ -156,7 +156,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card style2">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service-icon_2-2.svg" alt="img">
+                            <img src="{{ asset('img/icon/service-icon_2-2.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Power Lifting</a></h4>
@@ -169,7 +169,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card style2">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service-icon_2-3.svg" alt="img">
+                            <img src="{{ asset('img/icon/service-icon_2-3.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Body Building</a></h4>
@@ -186,7 +186,7 @@
     <!--==============================
     Cta Area
     ==============================-->
-    <section class="cta-area space" data-bg-src="assets/img/bg/cta-bg1.png">
+    <section class="cta-area space" data-bg-src="{{ asset('img/bg/cta-bg1.png') }}">
         <div class="container">
             <div class="row justify-content-lg-end justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10">
@@ -225,7 +225,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-1.png" alt="img">
+                            <img src="{{ asset('img/team/team-1.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">George Thomas</a>
@@ -242,7 +242,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-2.png" alt="img">
+                            <img src="{{ asset('img/team/team-2.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Mike Johnson</a>
@@ -259,7 +259,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-3.png" alt="img">
+                            <img src="{{ asset('img/team/team-3.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Amelia Harper</a>
@@ -276,7 +276,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-4.png" alt="img">
+                            <img src="{{ asset('img/team/team-4.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Oliver Samuel</a>
@@ -293,7 +293,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-1.png" alt="img">
+                            <img src="{{ asset('img/team/team-1.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">George Thomas</a>
@@ -310,7 +310,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-2.png" alt="img">
+                            <img src="{{ asset('img/team/team-2.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Mike Johnson</a>
@@ -327,7 +327,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-3.png" alt="img">
+                            <img src="{{ asset('img/team/team-3.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Amelia Harper</a>
@@ -344,7 +344,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-card_img">
-                            <img src="assets/img/team/team-4.png" alt="img">
+                            <img src="{{ asset('img/team/team-4.png') }}" alt="img">
                         </div>
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Oliver Samuel</a>
