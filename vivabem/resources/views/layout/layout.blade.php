@@ -229,7 +229,7 @@
                                         </ul> --}}
                                     </li>
                                     <li>
-                                        <a href="{{ url('/about') }}">Sobre</a>
+                                        <a href="{{ url('/sobre') }}">Sobre</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="{{ url('/service') }}">Serviços</a>
@@ -323,7 +323,7 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Quick Links</h3>
+                            <h3 class="widget_title">Links Rápidos</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
                                     <li><a href="{{ url('/about.php') }}">Sobre nós</a></li>

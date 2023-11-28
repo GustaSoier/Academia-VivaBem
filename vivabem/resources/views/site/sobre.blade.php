@@ -1,6 +1,6 @@
 @extends('layout.layout')
 
-@section('title','Início')
+@section('title','Sobre')
 
 @section('conteudo')
 
