@@ -87,7 +87,7 @@
             <div class="widget widget_nav_menu footer-widget">
                 <h3 class="widget_title">Nossos Links</h3>
                 <ul class="menu">
-                    <li><a href="{{ url('/about') }}">Sobre nós</a></li>
+                    <li><a href="{{ url('/sobre') }}">Sobre nós</a></li>
                     <li><a href="{{ url('/project-details') }}">Nossa Missão</a></li>
                     <li><a href="{{ url('/team') }}">Conheça As Equipes</a></li>
                     <li><a href="{{ url('/project') }}">Nossos Projetos</a></li>
@@ -214,19 +214,19 @@
                         <div class="col-auto m-lg-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="{{ url('/') }}">Home</a>
-                                        <ul class="sub-menu">
+                                    <li>
+                                        <a href="{{ url('/') }}">Início</a>
+                                        {{-- <ul class="sub-menu">
                                             <li>
                                                 <a href="{{ url('/') }}">Home</a>
                                             </li>
-                                            {{-- <li>
+                                            <li>
                                                 <a href="{{ url('/home-2') }}">Home 02</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/home-3') }}">Home 03</a>
-                                            </li> --}}
-                                        </ul>
+                                            </li>
+                                        </ul> --}}
                                     </li>
                                     <li>
                                         <a href="{{ url('/about') }}">Sobre</a>

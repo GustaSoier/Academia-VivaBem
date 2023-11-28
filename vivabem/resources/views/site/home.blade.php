@@ -981,7 +981,7 @@
     <div class="video-area-1">
         <div class="container">
             <div class="video-wrap">
-                <a data-bg-src="{{ asset('img/normal/video-bg1.png') }}" href="https://www.youtube.com/watch?v=P7fi4hP_y80" class="play-btn popup-video">
+                <a data-bg-src="{{ asset('img/normal/video-bg1.png') }}" href="https://www.youtube.com/watch?v=9j8IHdic0F0" class="play-btn popup-video">
                     <i class="fa-sharp fa-solid fa-play"></i>
                 </a>
             </div>
@@ -1336,16 +1336,16 @@
                             </div>
                             <div class="details">
                                 <h3 class="wcu-grid_year"><span class="counter-number">25</span>+</h3>
-                                <span class="wcu-grid_text">Years Experience</span>
+                                <span class="wcu-grid_text">ANOS DE EXPERIÊNCIA</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="title-area">
-                        <span class="sub-title">Fitmas Goal
+                        <span class="sub-title">META DE FITMAS
                         </span>
-                        <h2 class="sec-title fw-semibold">UNLOCK YOUR FULL POTENTIAL, ACHIEVE YOUR FITNESS GOALS.</h2>
+                        <h2 class="sec-title fw-semibold">DESBLOQUEIE TODO O SEU POTENCIAL, ALCANCE SEUS OBJETIVOS DE FITNESS.</h2>
                     </div>
                     <div class="goal-grid-wrap">
                         <div class="about-grid style3">
@@ -1353,8 +1353,8 @@
                                 <img src="{{ asset('img/icon/goal-icon_1-1.svg') }}" alt="img">
                             </div>
                             <div class="about-grid_content">
-                                <h4 class="about-grid_title">Free Fitness Training</h4>
-                                <p class="about-grid_text">Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
+                                <h4 class="about-grid_title">Treinamento físico gratuito</h4>
+                                <p class="about-grid_text">Pedale até se exercitar em nosso estúdio especializado em ciclismo indoor. Equipado com bicicletas estacionárias...</p>
                             </div>
                         </div>
                         <div class="about-grid style3">
@@ -1362,7 +1362,7 @@
                                 <img src="{{ asset('img/icon/goal-icon_1-2.svg') }}" alt="img">
                             </div>
                             <div class="about-grid_content">
-                                <h4 class="about-grid_title">Cardio and Strength</h4>
+                                <h4 class="about-grid_title">Cardio e Força</h4>
                                 <p class="about-grid_text">Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
                             </div>
                         </div>
