@@ -13,10 +13,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">About Us</h1>
+                        <h1 class="breadcumb-title">Sobre nós</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">HOME</a></li>
-                            <li class="active">ABOUT US</li>
+                            <li><a href="index.html">INÍCIO</a></li>
+                            <li class="active">SOBRE NÓS</li>
                         </ul>
                     </div>
                 </div>
@@ -40,45 +40,46 @@
                 <div class="col-lg-6 order-lg-1">
                     <div class="about-content-wrap">
                         <div class="title-area mb-0">
-                            <span class="sub-title">More About Us</span>
-                            <h2 class="sec-title">Unlock Your Full Potential,
-                                Achieve Your Goals.</h2>
-                            <p class="sec-text">Welcome to Fitmas. your ultimate destination for achieving your fitness goals. We understand the importance of leading a healthy lifestyle and provide a top-notch fitness facility to support you in your fitness journey.
+                            <span class="sub-title">MAIS SOBRE NÓS</span>
+                            <h2 class="sec-title">Desbloqueie todo o seu potencial, alcance seus objetivos.</h2>
+                            <p class="sec-text">Bem-vindo ao Fitmas. seu destino final para alcançar seus objetivos de condicionamento físico. Compreendemos a importância de levar um estilo de vida saudável e oferecemos instalações de fitness de alto nível para apoiá-lo em sua jornada de fitness.
                             </p>
                             <div class="about-tab-1">
                                 <div class="filter-menu-active">
-                                    <button data-filter=".cat1" class="active" type="button">Our Mission</button>
-                                    <button data-filter=".cat2" type="button">Our Vision</button>
-                                    <button data-filter=".cat3" type="button">Our Goal</button>
+                                    <button data-filter=".cat1" class="active" type="button">Nossa missão
+                                    </button>
+                                    <button data-filter=".cat2" type="button">Nossa visão
+                                    </button>
+                                    <button data-filter=".cat3" type="button">Nosso objetivo</button>
                                 </div>
                                 <div class="filter-active-cat1">
                                     <div class="filter-item cat1">
                                         <div class="about-tab-icon">
                                             <img src="{{ asset('img/icon/about-icon.svg') }}" alt="img">
                                         </div>
-                                        <p class="about-tab-text">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
+                                        <p class="about-tab-text">Os ginásios desempenham um papel vital na promoção de um estilo de vida ativo e saudável. Eles fornecem um ambiente de apoio e motivação para os indivíduos praticarem atividades físicas regulares</p>
                                     </div>
                                     <div class="filter-item cat2">
                                         <div class="about-tab-icon">
                                             <img src="{{ asset('img/icon/about-icon.svg') }}" alt="img">
                                         </div>
-                                        <p class="about-tab-text">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
+                                        <p class="about-tab-text">Os ginásios desempenham um papel vital na promoção de um estilo de vida ativo e saudável. Eles fornecem um ambiente de apoio e motivação para os indivíduos praticarem atividades físicas regulares</p>
                                     </div>
                                     <div class="filter-item cat3">
                                         <div class="about-tab-icon">
                                             <img src="{{ asset('img/icon/about-icon.svg') }}" alt="img">
                                         </div>
-                                        <p class="about-tab-text">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
+                                        <p class="about-tab-text">Os ginásios desempenham um papel vital na promoção de um estilo de vida ativo e saudável. Eles fornecem um ambiente de apoio e motivação para os indivíduos praticarem atividades físicas regulares</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn">Make Appointment</a>
+                            <a href="about.html" class="btn">Marque uma consulta</a>
                             <div class="about-info-wrap">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
-                                    <p class="about-info-title">Need Help?</p>
+                                    <p class="about-info-title">Precisa de ajuda?</p>
                                     <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
                                 </div>
                             </div>
@@ -95,8 +96,8 @@
     <div class="service-area-2 space-bottom overflow-hidden">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title">Our Services</span>
-                <h2 class="sec-title">Service We Provide</h2>
+                <span class="sub-title">NOSSOS SERVIÇOS</span>
+                <h2 class="sec-title">Serviço que oferecemos!</h2>
             </div>
         </div>
         <div class="container">
@@ -107,7 +108,7 @@
                             <img src="{{ asset('img/icon/service-icon_2-1.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Gym Fitness Class</a></h4>
+                            <h4 class="service-card_title h5"><a href="service-details.html">Aula de ginática</a></h4>
                             <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
                                 short recovery periods...</p>
                             <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
@@ -146,10 +147,9 @@
                             <img src="{{ asset('img/icon/service-icon_2-1.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Gym Fitness Class</a></h4>
-                            <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
-                                short recovery periods...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
+                            <h4 class="service-card_title h5"><a href="service-details.html">Aula de ginástica</a></h4>
+                            <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
+                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
                     </div>
                 </div>
@@ -160,9 +160,8 @@
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Power Lifting</a></h4>
-                            <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
-                                short recovery periods...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
+                            <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
+                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
                     </div>
                 </div>
@@ -173,9 +172,8 @@
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Body Building</a></h4>
-                            <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
-                                short recovery periods...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
+                            <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
+                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
                     </div>
                 </div>
@@ -192,16 +190,15 @@
                 <div class="col-xl-6 col-lg-8 col-md-10">
                     <div class="cta-wrap text-center text-lg-start">
                         <div class="title-area">
-                            <span class="sub-title">Make An Appointment</span>
-                            <h2 class="sec-title text-white">Get a Free Consultancy
-                                Right Now Here!</h2>
+                            <span class="sub-title">MARQUE UMA CONSULTA</span>
+                            <h2 class="sec-title text-white">Obtenha uma consultoria gratuita agora mesmo aqui!</h2>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="btn style2">Make Appointment</a>
+                            <a href="about.html" class="btn style2">Marque uma consulta</a>
                             <div class="about-info-wrap style3">
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
-                                    <p class="about-info-title text-white">Need Help?</p>
+                                    <p class="about-info-title text-white">Precisa de ajuda?</p>
                                     <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
                                 </div>
                             </div>
@@ -218,8 +215,8 @@
     <div class="team-area-1 space">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title">Our Trainer</span>
-                <h2 class="sec-title">Meet Our Amazing Team</h2>
+                <span class="sub-title">NOSSOS TREINADORES</span>
+                <h2 class="sec-title">Conheça nossa incrível equipe!</h2>
             </div>
             <div class="row global-carousel team-slider-1 slider-shadow" data-slide-show="4" data-ml-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-center-mode="true">
                 <div class="col-lg-4 col-md-6">
@@ -230,7 +227,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">George Thomas</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -247,7 +244,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Mike Johnson</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -264,7 +261,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Amelia Harper</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -281,7 +278,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Oliver Samuel</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -298,7 +295,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">George Thomas</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -315,7 +312,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Mike Johnson</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -332,7 +329,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Amelia Harper</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -349,7 +346,7 @@
                         <div class="team-card_content">
                             <h4 class="team-card_title"><a href="team-details.html">Oliver Samuel</a>
                             </h4>
-                            <span class="team-card_desig">CEO/Founder</span>
+                            <span class="team-card_desig">CEO/Fundador</span>
                             <div class="social-btn">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
