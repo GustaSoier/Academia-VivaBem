@@ -9,7 +9,7 @@
     ==============================-->
     <div class="hero-wrapper hero-2" id="hero">
         <div class="global-carousel" id="heroSlider2" data-fade="true" data-slide-show="1" data-lg-slide-show="1" data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true">
-            <div class="hero-slider" data-bg-src="{{ asset('img/hero/hero_bg_2_1.png') }}">
+            <div class="hero-slider" data-bg-src="{{ asset('img/hero/hero_bg_2_1.jpeg') }}">
                 <div class="hero-shape2-1 shape-mockup movingX" data-bottom="-165px" data-left="0">
                     <img src="{{ asset('img/hero/hero_shape_1.png') }}" alt="img">
                 </div>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-slider" data-bg-src="{{ asset('img/hero/hero_bg_2_2.png') }}">
+            <div class="hero-slider" data-bg-src="{{ asset('img/hero/hero_bg_2_2.jpeg') }}">
                 <div class="hero-shape2-1 shape-mockup movingX" data-bottom="-165px" data-left="0">
                     <img src="{{ asset('img/hero/hero_shape_2-1.png') }}" alt="img">
                 </div>
@@ -1122,7 +1122,7 @@
                             <div class="icon"><i class="fas fa-phone"></i></div>
                             <div class="details">
                                 <p class="about-info-title">Ligue para nós 24/7</p>
-                                <a class="about-info-link" href="tel:+25825692582">+236-3256.21456</a>
+                                <a class="about-info-link" href="tel:+11951694143">(11) 951694143</a>
                             </div>
                         </div>
                     </div>
@@ -1394,7 +1394,7 @@
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
                                     <p class="about-info-title text-white">Precisa de ajuda?</p>
-                                    <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
+                                    <a class="about-info-link" href="tel:+11951694143">(11) 951694143</a>
                                 </div>
                             </div>
                         </div>

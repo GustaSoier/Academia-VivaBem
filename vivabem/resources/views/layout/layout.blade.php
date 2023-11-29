@@ -91,7 +91,7 @@
                     <li><a href="{{ url('/project-details') }}">Nossa Missão</a></li>
                     <li><a href="{{ url('/team') }}">Conheça As Equipes</a></li>
                     <li><a href="{{ url('/project') }}">Nossos Projetos</a></li>
-                    <li><a href="{{ url('/contact') }}">Contato</a></li>
+                    <li><a href="{{ url('/contato') }}">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -161,7 +161,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="{{ url('/contact') }}">Contato</a>
+                        <a href="{{ url('/contato') }}">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -255,14 +255,14 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="{{ url('/blog') }}">Blog</a>
+                                        <a href="{{ url('/noticias') }}">Blog</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{ url('/blog') }}">Blog</a></li>
+                                            <li><a href="{{ url('/noticias') }}">Blog</a></li>
                                             <li><a href="{{ url('/blog-details') }}">Blog Detalhes</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="{{ url('/contact') }}">Contato</a>
+                                        <a href="{{ url('/contato') }}">Contato</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -272,7 +272,7 @@
                         </div>
                         <div class="col-auto d-xxl-block d-none">
                             <div class="navbar-right-desc">
-                                <i class="fas fa-phone-volume"></i><a href="tel:+11951694143">11 951694143</a>
+                                <i class="fas fa-phone-volume"></i><a href="tel:+11951694143">(11) 951694143</a>
                             </div>
                         </div>
                         <div class="col-auto d-none d-lg-block">

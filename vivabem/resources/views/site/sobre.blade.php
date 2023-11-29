@@ -109,9 +109,8 @@
                         </div>
                         <div class="service-card_content">
                             <h4 class="service-card_title h5"><a href="service-details.html">Aula de ginática</a></h4>
-                            <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
-                                short recovery periods...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
+                            <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
+                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
                     </div>
                 </div>
@@ -121,10 +120,9 @@
                             <img src="{{ asset('img/icon/service-icon_2-2.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Power Lifting</a></h4>
-                            <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
-                                short recovery periods...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
+                            <h4 class="service-card_title h5"><a href="service-details.html">Levantamento de força</a></h4>
+                            <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
+                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
                     </div>
                 </div>
@@ -134,10 +132,9 @@
                             <img src="{{ asset('img/icon/service-icon_2-3.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Body Building</a></h4>
-                            <p class="service-card_text">High-intensity workouts that alternate between intense bursts of exercise and
-                                short recovery periods...</p>
-                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Read More</a>
+                            <h4 class="service-card_title h5"><a href="service-details.html">Musculação</a></h4>
+                            <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
+                            <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +156,7 @@
                             <img src="{{ asset('img/icon/service-icon_2-2.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Power Lifting</a></h4>
+                            <h4 class="service-card_title h5"><a href="service-details.html">Levantamento de força</a></h4>
                             <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
                             <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
@@ -171,7 +168,7 @@
                             <img src="{{ asset('img/icon/service-icon_2-3.svg') }}" alt="img">
                         </div>
                         <div class="service-card_content">
-                            <h4 class="service-card_title h5"><a href="service-details.html">Body Building</a></h4>
+                            <h4 class="service-card_title h5"><a href="service-details.html">Musculação</a></h4>
                             <p class="service-card_text">Treinos de alta intensidade que alternam entre séries de exercício e curtos peíodos de recuperação...</p>
                             <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> CONSULTE MAIS INFORMAÇÕES</a>
                         </div>
@@ -199,7 +196,7 @@
                                 <div class="icon"><i class="fas fa-phone-volume"></i></div>
                                 <div class="details">
                                     <p class="about-info-title text-white">Precisa de ajuda?</p>
-                                    <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
+                                    <a class="about-info-link" href="tel:+11951694143">(11) 951694143</a>
                                 </div>
                             </div>
                         </div>
